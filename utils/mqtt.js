@@ -37,8 +37,8 @@ export const websocketCallbacks = (client, messageReceivedCallback) => {
     });
 };
 
-export const sendMessage = (client) => {
-    const message = new Message('37');
+export const sendMessage = (client, id) => {
+    const message = new Message(id.toString());
     message.destinationName = 'wattering';
     client.send(message);
 };

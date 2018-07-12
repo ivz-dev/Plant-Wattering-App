@@ -25,8 +25,11 @@ const plantsList = [
   }
 ];
 
-const Plant = ({thumbnail, name}) => (
-  <TouchableOpacity style={{flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: 20}}>
+const Plant = ({thumbnail, name, navigation, id}) => (
+  <TouchableOpacity 
+    style={{flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: 20}}
+    onPress={() => navigation.navigate("Plant", { name, thumbnail, id } )}
+  >
     <Thumbnail style={{width: 130, height: 130, borderRadius: 130/2, borderWidth: 3, borderColor: '#d6d7da',}} source={{ uri: thumbnail }} />
     <Text style={{marginTop: 10, fontSize: 20, fontFamily: "Roboto"}}>{name}</Text>
   </TouchableOpacity>
@@ -37,7 +40,7 @@ export default class HomeScreen extends React.Component {
     return ( 
       <ScrollView contentContainerStyle={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around', flexWrap: 'wrap', paddingTop: 20, paddingBottom: 20}}>
       {
-        plantsList.map((item) => <Plant key={item.id} thumbnail={item.thumbnail} name={item.name} /> )
+        plantsList.map((item, index) => <Plant key={item.id} thumbnail={item.thumbnail} name={item.name} navigation={this.props.navigation} id={index} /> )
       }
       </ScrollView>
     );

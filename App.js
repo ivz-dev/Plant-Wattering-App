@@ -7,13 +7,8 @@ import HomeScreen from "./src/HomeScreen";
 import SettingsScreen from "./src/SettingsScreen";
 import SheduleScreen from "./src/SheduleScreen";
 import AddScreen from "./src/AddScreen";
+import PlantScreen from "./src/PlantScreen";
 import Header from "./src/Header";
-
-
-const MyObject = {
-  name: "hello",
-  lastname: "test"
-};
 
 class TabBar extends React.Component {
 
@@ -27,9 +22,9 @@ class TabBar extends React.Component {
           tabBarTextSize={10}
         >
           {
-            Object.keys(routes).map((route, index) => ( 
+            Object.keys(routes).filter(item => routes[item].main).map((route, index) => ( 
               <Button 
-                key={route}
+                key={route} 
                 onPress={() => this.props.navigation.navigate(route) }
                 active={index === current}
               >
@@ -47,18 +42,26 @@ class TabBar extends React.Component {
 const routes = {
   Home: {
     screen: HomeScreen,
-    icon: "flower"
+    icon: "flower",
+    main: true
   },
   Add: {
     screen: AddScreen,
-    icon: "ios-add-circle-outline"
+    icon: "ios-add-circle-outline",
+    main: true
   },
   Shedule: {
     screen: SheduleScreen,
-    icon: "calendar"
+    icon: "calendar",
+    main: true
   },
   Settings: {
     screen: SettingsScreen,
+    icon: "ios-settings",
+    main: true
+  },
+  Plant: {
+    screen: PlantScreen,
     icon: "ios-settings"
   }
 }
