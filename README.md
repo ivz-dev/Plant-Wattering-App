@@ -3,7 +3,7 @@ Mobile application for wattering system
 
 | First Header  | Second Header | Second Header |
 | ------------- | ------------- | ------------- |
-| <img src="https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg" width="150">  | <img src="https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg" width="150">  | <img src="https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png" width="150">  |
+| <img src="https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg" width="250">  | <img src="https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg" width="250">  | <img src="https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png" width="250">  |
 
 ## Table of Contents
 
