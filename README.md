@@ -2,7 +2,7 @@
 Mobile application for wattering system
 Wattering screen             |  Wattering screen |  Main screen
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg)  |  ![](https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg) |  ![](https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png) |
+![](https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg=250x)  |  ![](https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg=250x) |  ![](https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png=250x) |
 
 ## Table of Contents
 
