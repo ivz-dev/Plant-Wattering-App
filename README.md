@@ -1,8 +1,8 @@
 # Plant Wattering App
 Mobile application for wattering system
-Solarized dark             |  Solarized Ocean |  Solarized Ocean
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg)  |  ![](https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg) |  ![](https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png)
+Wattering screen             |  Wattering screen |  Main screen
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg)  |  ![](https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg) |  ![](https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png) |
 
 ## Table of Contents
 
