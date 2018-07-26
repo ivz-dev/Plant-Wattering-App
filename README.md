@@ -1,6 +1,10 @@
-This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+# Plant Wattering App
+Mobile application for wattering system
 
-Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
+![wattering screen](https://ibb.co/mK9W4T)
+![wattering screen](https://ibb.co/dDHCB8)
+![wattering screen](https://ibb.co/mK9W4T)
+
 
 ## Table of Contents
 
