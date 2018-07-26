@@ -1,10 +1,9 @@
 # Plant Wattering App
 Mobile application for wattering system
 
-![wattering screen](https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg)
-![wattering screen](https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg)
-![wattering screen](https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png)
-
+<img src="https://image.ibb.co/kAir4T/photo_2018_07_26_21_32_26.jpg" alt="drawing" width="250px"/>
+<img src="https://image.ibb.co/fmtkW8/photo_2018_07_26_21_32_26_2.jpg" alt="drawing" width="250px"/>
+<img src="https://cdn.dribbble.com/users/1375285/screenshots/3366787/attachments/731987/myplants-1d.png" alt="drawing" width="250px"/>
 
 ## Table of Contents
 
